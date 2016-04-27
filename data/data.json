@@ -2,7 +2,7 @@
     "fr":{
         "fullName":"Martin BOLOT",
         "role": "Développeur Web",
-        "profilePic" : "res/img/profile.png",
+        "profilePic" : "img/photo_id2.jpg",
         "sections":{
             "skills" :{
                 "title":"Compétences en Programmation",
@@ -67,7 +67,6 @@
                 "title":"Contacts",
                 "content":{
                     "name":"Martin BOLOT",
-                    "github":"https://github.com/MartinBolot",
                     "mail":"martin[at]martinbolot.com"
                 }
             },
