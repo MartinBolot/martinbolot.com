@@ -2,7 +2,7 @@
     "fr":{
         "fullName":"Martin BOLOT",
         "role": "Développeur Web",
-        "profilePic" : "img/photo_id2.jpg",
+        "profilePic" : "img/profile.png",
         "sections":{
             "skills" :{
                 "title":"Compétences en Programmation",
@@ -57,7 +57,7 @@
                 "title":"Langues",
                 "content":{
                     "languages":[
-                        {"title":"Anglais","level":"courant (Voyages aux Etats-Unis en 2005 et 2011)"},
+                        {"title":"Anglais","level":"très bonne maîtrise (Voyages aux Etats-Unis en 2005 et 2011)"},
                         {"title":"Japonais","level":"bonne maîtrise (Licence de japonais, Voyages au Japon en 2009 et 2013)"},
                         {"title":"Allemand","level":"scolaire (Niveau BAC – Première langue)"}
                     ]
@@ -66,6 +66,7 @@
             "contact":{
                 "title":"Contacts",
                 "content":{
+                    "github":"https://github.com/MartinBolot",
                     "name":"Martin BOLOT",
                     "mail":"martin[at]martinbolot.com"
                 }
