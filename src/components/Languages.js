@@ -7,22 +7,22 @@ export default class Languages extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12 text-center">
-                            <h2>Langues</h2>
+                            <h2>{this.props.data.title}</h2>
                             <hr className="star-light" />
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-lg-10 col-lg-offset-2">
                             <ul className="formation_list">
-                                <li>
-                                    <strong>Anglais : </strong> très bonne maîtrise (Voyages aux Etats-Unis en 2005 et 2011)
-                                </li>
-                                <li>
-                                    <strong>Japonais : </strong> bonne maîtrise (Licence de japonais, Voyages au Japon en 2009 et 2013)
-                                </li>
-                                <li>
-                                    <strong>Allemand : </strong> scolaire (Niveau BAC – Première langue)
-                                </li>
+                                {
+                                    this.props.data.content.languages.map((language,index) => {
+                                        return(
+                                            <li key={index}>
+                                                <strong>{language.title} : </strong> {language.level}
+                                            </li>
+                                        );
+                                    })
+                                }
                             </ul>
                         </div>
                     </div>

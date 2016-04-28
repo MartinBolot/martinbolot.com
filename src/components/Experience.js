@@ -7,7 +7,7 @@ export default class Experience extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12 text-center">
-                            <h2>Expérience</h2>
+                            <h2>{this.props.data.title}</h2>
                             <hr className="star-light" />
                         </div>
                     </div>
@@ -15,23 +15,26 @@ export default class Experience extends Component {
                         <div className="col-lg-6 col-lg-offset-3">
                             <div className="emphasis">
                                 <p className="text-center">
-                                    Agence E-magineurs
+                                    {this.props.data.content.emagineurs.title}
                                 </p>
                                 <ul>
                                     <li>
-                                        <strong>Missions :</strong> Découpage, intégration et configuration de sites internet
+                                        <strong>Missions :</strong> {this.props.data.content.emagineurs.missions}
                                     </li>
                                     <li>
                                         <strong>Activités :</strong>
                                         <ul>
-                                            <li>Réalisation de gabarits grâce à HTML et CSS</li>
-                                            <li>Développement de diverses fonctionnalités en JavaScript</li>
-                                            <li>Intégration des gabarits dans le CMS TYPO3</li>
-                                            <li>Configuration du CMS et de ses extensions</li>
+                                            {
+                                                this.props.data.content.emagineurs.activity.map((el,ind) => {
+                                                    return(
+                                                        <li key={ind}>{el}</li>
+                                                    );
+                                                },this)
+                                            }
                                         </ul>
                                     </li>
                                     <li>
-                                        <strong>Statut :</strong> CDI
+                                        <strong>Statut :</strong> {this.props.data.content.emagineurs.status}
                                     </li>
                                 </ul>
                             </div>
@@ -40,16 +43,16 @@ export default class Experience extends Component {
                     <div className="row space_before_row">
                         <div className="col-sm-5 text-center col-sm-offset-1">
                             <p>
-                                Stage intégration contenu Web<br/>
-                                Agence E-magineurs<br/>
-                                <a href="http://www.e-magineurs.com" target="_blank">www.e-magineurs.com</a>
+                                {this.props.data.content.stageEmagineurs.title}<br/>
+                                {this.props.data.content.stageEmagineurs.subtitle}<br/>
+                                <a href={'http://'+this.props.data.content.stageEmagineurs.url} target="_blank">{this.props.data.content.stageEmagineurs.url}</a>
                             </p>
                         </div>
                         <div className="col-sm-5 text-center">
                             <p>
-                                Optimisation référencement Web<br/>
-                                Degustatio<br/>
-                                <a href="http://www.degustatio.fr" target="_blank">www.degustatio.fr</a>
+                                {this.props.data.content.optimisationRef.title}<br/>
+                                {this.props.data.content.optimisationRef.subtitle}<br/>
+                                <a href={'http://'+this.props.data.content.optimisationRef.url} target="_blank">{this.props.data.content.optimisationRef.url}</a>
                             </p>
                         </div>
                     </div>

@@ -8,7 +8,7 @@ export default class Footer extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
-                                Copyright &copy; Martin BOLOT 2016
+                                {this.props.data.copyright}
                             </div>
                         </div>
                     </div>

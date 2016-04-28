@@ -21,11 +21,11 @@ export default class Nav extends Component {
                             </li>
                             {
                                 Object.keys(this.props.data.sections)
-                                    .filter(function(el){ return el !== "motivation"; })
-                                    .map(function(sectionKey){
+                                    .filter((el) => { return el !== 'motivation'; })
+                                    .map((sectionKey) => {
                                         return(
                                             <li key={sectionKey} className="page-scroll">
-                                                <a href={"#"+sectionKey}>
+                                                <a href={'#'+sectionKey}>
                                                     {
                                                         this.props.data.sections[sectionKey].menuTitle ?
                                                             (this.props.data.sections[sectionKey].menuTitle) : (this.props.data.sections[sectionKey].title)
