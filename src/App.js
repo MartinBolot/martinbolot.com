@@ -18,7 +18,7 @@ export default class App extends Component {
                 <Nav data={this.props.data} />
                 <Header data={this.props.data} />
                 <Skills data={this.props.data.sections.skills} />
-                <Experience data={this.props.data.sections.portfolio} />
+                <Experience data={this.props.data.sections.portfolio} language={this.props.language} />
                 <About data={this.props.data.sections.about} />
                 <Languages data={this.props.data.sections.languages} />
                 <Contact data={this.props.data.sections.contact} />

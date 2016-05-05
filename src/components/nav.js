@@ -35,6 +35,7 @@ export default class Nav extends Component {
                                         );
                                     },this)
                             }
+                            <li className=""><a href="?fr" className="switch_lang switch_fr">FR</a><span>/</span><a  href="?en" className="switch_lang switch_en">EN</a></li>
                         </ul>
                     </div>
                 </div>
