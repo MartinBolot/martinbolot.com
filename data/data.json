@@ -15,7 +15,8 @@
                 }
             },
             "portfolio":{
-                "title":"Expérience",
+                "title":"Expérience professionnelle",
+                "menuTitle" : "Expérience",
                 "content":{
                     "emagineurs":{
                         "title":"Agence E-magineurs",
@@ -70,15 +71,80 @@
                     "name":"Martin BOLOT",
                     "mail":"martin[at]martinbolot.com"
                 }
-            },
-            "motivation":{
-                "title":"Motivations",
+            }
+        },
+        "copyright" : "Copyright © Martin BOLOT 2016"
+    },
+    "en":{
+        "fullName":"Martin BOLOT",
+        "role": "Web Developer",
+        "profilePic" : "img/profile.png",
+        "sections":{
+            "skills" :{
+                "title":"Programming Skills",
+                "menuTitle":"Skills",
                 "content":{
-                    "intro":"Je suis une formation à Lyon1 en IUT Informatique en année spéciale et suis à la recherche d’un stage devant se dérouler du 13 juin au 26 août 2016 ainsi que d’une alternance pour septembre 2016."
-                    ,"p1":"J’ai appris il y a plusieurs années de manière autodidacte les langages de description du web (HTML et CSS). Une certaine pratique acquise, j'ai été embauché, avec un complément de formation, par une agence de communication digitale lyonnaise où j'ai travaillé en tant qu’intégrateur/développeur web durant trois ans. La possibilité m'a été donnée de partager mes connaissances en donnant des formations à la gestion de contenu web dans différentes villes de France."
-                    ,"p2":"La reprise d’un cursus d’études dans l’informatique m’a permis d’acquérir de précieuses connaissances en algorithme (programmation fonctionnelle, structures de données), en bases de données (Oracle, MySQL), ainsi qu’en programmation (C, C++, Java, PHP). "
-                    ,"p3":"Ce qui me motive le plus reste toutefois la pratique du JavaScript pour lequel j’ai développé une passion après un premier contact en entreprise. J’ai pu développer mes compétences dans ce langage notamment grâce à mon projet d’étude (repo git : http://bit.ly/1V4mPgU), une application d’édition graphique basée sur ce dernier et D3js, l’une de ses bibliothèques. Je m’intéresse beaucoup, sur mon temps libre, à la bibliothèque NodeJS et à son écosystème (React, Express, Babel…)."
-                    ,"bonus":"Je me tiens à disposition pour tous renseignements !"
+                    "JavaScript" : 4,
+                    "CSS3" : 4,
+                    "HTML5" : 4,
+                    "others" : 3
+                }
+            },
+            "portfolio":{
+                "title":"Professional experience",
+                "menuTitle" : "Experience",
+                "content":{
+                    "emagineurs":{
+                        "title":"E-magineurs",
+                        "subtitle":"",
+                        "missions":"Front-end web development",
+                        "activity":[
+                            "HTML templating and CSS styling",
+                            "Various JavaScript module development",
+                            "TYPO3 CMS configuration and templating",
+                            "User training"
+                        ],
+                        "status":"Permanent position",
+                        "url":""
+                    },
+                    "stageEmagineurs":{
+                        "title":"Web content management internship",
+                        "subtitle":"E-magineurs",
+                        "url":"www.e-magineurs.com"
+                    },
+                    "optimisationRef":{
+                        "title":"SEO optimisation",
+                        "subtitle":"Degustatio",
+                        "url":"www.degustatio.fr"
+                    }
+                }
+            },
+            "about":{
+                "title":"Degrees",
+                "content":{
+                    "formations":[
+                        {"year":"2016","subject":"DUT Informatique en Année Spéciale - Université Lyon 1 - Lyon, France"},
+                        {"year":"2012","subject":"Licence LLCE spé Japonais - Université Jean Moulin Lyon 3 - Lyon, France"},
+                        {"year":"2009","subject":"Baccalauréat Section Scientifique - Lyon, France"}
+                    ]
+                }
+            },
+            "languages":{
+                "title":"Languages",
+                "content":{
+                    "languages":[
+                        {"title":"English","level":"Spoken, written, read"},
+                        {"title":"Japanese","level":"Spoken, written, read"},
+                        {"title":"German","level":"Basic A-grade level"}
+                    ]
+                }
+            },
+            "contact":{
+                "title":"Contact me",
+                "content":{
+                    "github":"https://github.com/MartinBolot",
+                    "name":"Martin BOLOT",
+                    "mail":"martin[at]martinbolot.com"
                 }
             }
         },

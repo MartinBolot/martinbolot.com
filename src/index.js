@@ -3,4 +3,5 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
-ReactDOM.render(<App data={jsonData.fr} />, document.getElementById('root'));
+const englishLanguage = (window.location.href.indexOf('en') !== -1);
+ReactDOM.render(<App data={ englishLanguage ? jsonData.en : jsonData.fr} language={ englishLanguage ? 'en' : 'fr'}/>, document.getElementById('root'));

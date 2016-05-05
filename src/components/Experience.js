@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 export default class Experience extends Component {
     render(){
+        const englishLanguage = (this.props.language === 'en');
         return(
             <section className="success" id="portfolio">
                 <div className="container">
@@ -19,10 +20,10 @@ export default class Experience extends Component {
                                 </p>
                                 <ul>
                                     <li>
-                                        <strong>Missions :</strong> {this.props.data.content.emagineurs.missions}
+                                        <strong>{ englishLanguage ? 'Role' : 'Missions'} :</strong> {this.props.data.content.emagineurs.missions}
                                     </li>
                                     <li>
-                                        <strong>Activités :</strong>
+                                        <strong>{ englishLanguage ? 'Activities' : 'Activités'} :</strong>
                                         <ul>
                                             {
                                                 this.props.data.content.emagineurs.activity.map((el,ind) => {
@@ -34,7 +35,7 @@ export default class Experience extends Component {
                                         </ul>
                                     </li>
                                     <li>
-                                        <strong>Statut :</strong> {this.props.data.content.emagineurs.status}
+                                        <strong>{ englishLanguage ? 'Status' : 'Statut'} :</strong> {this.props.data.content.emagineurs.status}
                                     </li>
                                 </ul>
                             </div>
