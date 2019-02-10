@@ -17,19 +17,19 @@ export default class Skills extends Component {
                                 <strong>JavaScript :</strong>
                             </p>
                             <p>
-                                ( + NodeJS, AngularJS, React, D3JS)
+                                ( + NodeJS, React, D3JS)
                             </p>
                         </div>
                     </div>
                     <div className="row space_before_row">
                         <div className="col-lg-5 col-lg-offset-2">
-                            <p id="css_skill" className={'hard_skill stars_'+this.props.data.content.CSS3}>
-                                <strong>CSS3 :</strong>
+                            <p id="css_skill" className={'hard_skill stars_'+this.props.data.content.csharp}>
+                                <strong>C# :</strong>
                             </p>
                         </div>
                         <div className="col-lg-5">
-                            <p id="html_skill" className={'hard_skill stars_'+this.props.data.content.HTML5}>
-                                <strong>HTML5 :</strong>
+                            <p id="html_skill" className={'hard_skill stars_'+this.props.data.content.jee}>
+                                <strong>JEE :</strong>
                             </p>
                         </div>
                     </div>

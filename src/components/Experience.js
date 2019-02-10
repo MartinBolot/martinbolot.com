@@ -16,17 +16,17 @@ export default class Experience extends Component {
                         <div className="col-lg-6 col-lg-offset-3">
                             <div className="emphasis">
                                 <p className="text-center">
-                                    {this.props.data.content.emagineurs.title}
+                                    {this.props.data.content.sword.title}
                                 </p>
                                 <ul>
                                     <li>
-                                        <strong>{ englishLanguage ? 'Role' : 'Missions'} :</strong> {this.props.data.content.emagineurs.missions}
+                                        <strong>{ englishLanguage ? 'Role' : 'Missions'} :</strong> {this.props.data.content.sword.missions}
                                     </li>
                                     <li>
                                         <strong>{ englishLanguage ? 'Activities' : 'Activités'} :</strong>
                                         <ul>
                                             {
-                                                this.props.data.content.emagineurs.activity.map((el,ind) => {
+                                                this.props.data.content.sword.activity.map((el,ind) => {
                                                     return(
                                                         <li key={ind}>{el}</li>
                                                     );
@@ -35,7 +35,7 @@ export default class Experience extends Component {
                                         </ul>
                                     </li>
                                     <li>
-                                        <strong>{ englishLanguage ? 'Status' : 'Statut'} :</strong> {this.props.data.content.emagineurs.status}
+                                        <strong>{ englishLanguage ? 'Status' : 'Statut'} :</strong> {this.props.data.content.sword.status}
                                     </li>
                                 </ul>
                             </div>
@@ -44,9 +44,9 @@ export default class Experience extends Component {
                     <div className="row space_before_row">
                         <div className="col-sm-5 text-center col-sm-offset-1">
                             <p>
-                                {this.props.data.content.stageEmagineurs.title}<br/>
-                                {this.props.data.content.stageEmagineurs.subtitle}<br/>
-                                <a href={'http://'+this.props.data.content.stageEmagineurs.url} target="_blank">{this.props.data.content.stageEmagineurs.url}</a>
+                                {this.props.data.content.emagineurs.title}<br/>
+                                {this.props.data.content.emagineurs.subtitle}<br/>
+                                <a href={'http://'+this.props.data.content.emagineurs.url} target="_blank">{this.props.data.content.emagineurs.url}</a>
                             </p>
                         </div>
                         <div className="col-sm-5 text-center">
