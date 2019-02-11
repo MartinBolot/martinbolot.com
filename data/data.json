@@ -31,6 +31,30 @@
                         "status":"CDI",
                         "url":""
                     },
+                    "limu":{
+                        "title":"Kyushu University, Japon",
+                        "subtitle":"",
+                        "missions":"Recherche en Deep Learning",
+                        "activity":[
+                            "Projet de recherche basé sur le deep learning",
+                            "Architecture d'un serveur utilitaire pour le deep learning",
+                            "Interface web de visualisation de donnée"
+                        ],
+                        "status":"Stage",
+                        "url":""
+                    },
+                    "prototypo":{
+                        "title":"Prototypo",
+                        "subtitle":"",
+                        "missions":"Développement React et NodeJS",
+                        "activity":[
+                            "Optimisation des rendus de fontes",
+                            "Participation au développement de l'interface",
+                            "Extension Google Chrome"
+                        ],
+                        "status":"Stage",
+                        "url":""
+                    },
                     "emagineurs":{
                         "title":"Développeur Web front-end",
                         "subtitle":"Agence E-magineurs",
@@ -105,6 +129,30 @@
                             "Front-end and back-end web development"
                         ],
                         "status":"Permanent position",
+                        "url":""
+                    },
+                    "limu":{
+                        "title":"Kyushu University, Japan",
+                        "subtitle":"",
+                        "missions":"Research with Deep Learning",
+                        "activity":[
+                            "Research project based on deep learning",
+                            "Deep learning utility server design",
+                            "Web interface for data visualization"
+                        ],
+                        "status":"Internship",
+                        "url":""
+                    },
+                    "prototypo":{
+                        "title":"Prototypo",
+                        "subtitle":"",
+                        "missions":"React and NodeJS development",
+                        "activity":[
+                            "Font rendering optimisation",
+                            "Work on user interface development",
+                            "Google Chrome Extension"
+                        ],
+                        "status":"Internship",
                         "url":""
                     },
                     "emagineurs":{

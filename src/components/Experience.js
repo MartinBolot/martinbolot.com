@@ -15,9 +15,9 @@ export default class Experience extends Component {
                     <div className="row space_before_row">
                         <div className="col-lg-6 col-lg-offset-3">
                             <div className="emphasis">
-                                <p className="text-center">
+                                <h3 className="text-center">
                                     {this.props.data.content.sword.title}
-                                </p>
+                                </h3>
                                 <ul>
                                     <li>
                                         <strong>{ englishLanguage ? 'Role' : 'Missions'} :</strong> {this.props.data.content.sword.missions}
@@ -40,6 +40,68 @@ export default class Experience extends Component {
                                 </ul>
                             </div>
                         </div>
+                    </div>
+                    <div className="row space_before_row">
+                      <div className="col-lg-6 col-lg-offset-3">
+                        <div className="emphasis">
+                          <h3 className="text-center">
+                            {this.props.data.content.limu.title}
+                          </h3>
+                          <ul>
+                            <li>
+                              <strong>{ englishLanguage ? 'Role' : 'Missions'} :</strong>
+                              &nbsp;{this.props.data.content.limu.missions}
+                            </li>
+                            <li>
+                              <strong>{ englishLanguage ? 'Activities' : 'Activités'} :</strong>
+                              <ul>
+                                {
+                                  this.props.data.content.limu.activity.map((el,ind) => {
+                                    return(
+                                      <li key={ind}>{el}</li>
+                                    );
+                                  },this)
+                                }
+                              </ul>
+                            </li>
+                            <li>
+                                <strong>{ englishLanguage ? 'Status' : 'Statut'} :</strong>
+                                &nbsp;{this.props.data.content.limu.status}
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="row space_before_row">
+                      <div className="col-lg-6 col-lg-offset-3">
+                        <div className="emphasis">
+                          <h3 className="text-center">
+                            {this.props.data.content.prototypo.title}
+                          </h3>
+                          <ul>
+                            <li>
+                              <strong>{ englishLanguage ? 'Role' : 'Missions'} :</strong>
+                              &nbsp;{this.props.data.content.prototypo.missions}
+                            </li>
+                            <li>
+                              <strong>{ englishLanguage ? 'Activities' : 'Activités'} :</strong>
+                              <ul>
+                                {
+                                  this.props.data.content.prototypo.activity.map((el,ind) => {
+                                    return(
+                                      <li key={ind}>{el}</li>
+                                    );
+                                  },this)
+                                }
+                              </ul>
+                            </li>
+                            <li>
+                                <strong>{ englishLanguage ? 'Status' : 'Statut'} :</strong>
+                                &nbsp;{this.props.data.content.prototypo.status}
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
                     </div>
                     <div className="row space_before_row">
                         <div className="col-sm-5 text-center col-sm-offset-1">
