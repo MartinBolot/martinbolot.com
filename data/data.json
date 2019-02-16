@@ -1,7 +1,7 @@
 {
     "fr":{
         "fullName":"Martin BOLOT",
-        "role": "Développeur Web",
+        "role": "Ingénieur d'étude",
         "profilePic" : "img/profile.png",
         "sections":{
             "skills" :{
@@ -9,8 +9,8 @@
                 "menuTitle":"Compétences",
                 "content":{
                     "JavaScript" : 4,
-                    "CSS3" : 4,
-                    "HTML5" : 4,
+                    "csharp" : 4,
+                    "jee" : 4,
                     "others" : 3
                 }
             },
@@ -18,22 +18,45 @@
                 "title":"Expérience professionnelle",
                 "menuTitle" : "Expérience",
                 "content":{
-                    "emagineurs":{
-                        "title":"Agence E-magineurs",
+                    "sword":{
+                        "title":"SWORD Group",
                         "subtitle":"",
-                        "missions":"Découpage, intégration et configuration de sites internet",
+                        "missions":"Ingénieur d'étude spécialisé ETL et CRM",
                         "activity":[
-                            "Réalisation de gabarits grâce à HTML et CSS",
-                            "Développement de diverses fonctionnalités en JavaScript",
-                            "Intégration des gabarits dans le CMS TYPO3",
-                            "Configuration du CMS et de ses extensions",
-                            "Formations utilisateurs"
+                            "Projets ETL avec SSIS et SQL Server",
+                            "Master Data Management avec Microsoft MDS",
+                            "Intégrateur CRM Microsoft Dynamics",
+                            "Développement Web front-end et back-end"
                         ],
                         "status":"CDI",
                         "url":""
                     },
-                    "stageEmagineurs":{
-                        "title":"Stage intégration contenu Web",
+                    "limu":{
+                        "title":"Kyushu University, Japon",
+                        "subtitle":"",
+                        "missions":"Recherche en Deep Learning",
+                        "activity":[
+                            "Projet de recherche basé sur le deep learning",
+                            "Architecture d'un serveur utilitaire pour le deep learning",
+                            "Interface web de visualisation de donnée"
+                        ],
+                        "status":"Stage",
+                        "url":""
+                    },
+                    "prototypo":{
+                        "title":"Prototypo",
+                        "subtitle":"",
+                        "missions":"Développement React et NodeJS",
+                        "activity":[
+                            "Optimisation des rendus de fontes",
+                            "Participation au développement de l'interface",
+                            "Extension Google Chrome"
+                        ],
+                        "status":"Stage",
+                        "url":""
+                    },
+                    "emagineurs":{
+                        "title":"Développeur Web front-end",
                         "subtitle":"Agence E-magineurs",
                         "url":"www.e-magineurs.com"
                     },
@@ -48,8 +71,9 @@
                 "title":"Formation",
                 "content":{
                     "formations":[
-                        {"year":"2016","subject":"DUT Informatique en Année Spéciale - Université Lyon 1 (en cours)"},
-                        {"year":"2012","subject":"Licence LLCE spé Japonais - Université Jean Moulin Lyon 3 - Mention AB"},
+                        {"year":"2019","subject":"Diplôme d'Ingénieur (Informatique et Réseaux de Communication) - CPE Lyon"},
+                        {"year":"2016","subject":"DUT Informatique en Année Spéciale - Université Lyon 1"},
+                        {"year":"2012","subject":"Licence LLCE spé Japonais - Université Jean Moulin Lyon 3"},
                         {"year":"2009","subject":"Baccalauréat Section Scientifique - Mention AB"}
                     ]
                 }
@@ -58,9 +82,9 @@
                 "title":"Langues",
                 "content":{
                     "languages":[
-                        {"title":"Anglais","level":"très bonne maîtrise (Voyages aux Etats-Unis en 2005 et 2011)"},
-                        {"title":"Japonais","level":"bonne maîtrise (Licence de japonais, Voyages au Japon en 2009 et 2013)"},
-                        {"title":"Allemand","level":"scolaire (Niveau BAC – Première langue)"}
+                        {"title":"Anglais","level":"Niveau C1"},
+                        {"title":"Japonais","level":"Niveau Licence"},
+                        {"title":"Allemand","level":"Niveau BAC LV1"}
                     ]
                 }
             },
@@ -77,7 +101,7 @@
     },
     "en":{
         "fullName":"Martin BOLOT",
-        "role": "Web Developer",
+        "role": "IT Consultant",
         "profilePic" : "img/profile.png",
         "sections":{
             "skills" :{
@@ -85,8 +109,8 @@
                 "menuTitle":"Skills",
                 "content":{
                     "JavaScript" : 4,
-                    "CSS3" : 4,
-                    "HTML5" : 4,
+                    "csharp" : 4,
+                    "jee" : 4,
                     "others" : 3
                 }
             },
@@ -94,21 +118,45 @@
                 "title":"Professional experience",
                 "menuTitle" : "Experience",
                 "content":{
-                    "emagineurs":{
-                        "title":"E-magineurs",
+                    "sword":{
+                        "title":"SWORD Group",
                         "subtitle":"",
-                        "missions":"Front-end web development",
+                        "missions":"ETL and CRM consulting",
                         "activity":[
-                            "HTML templating and CSS styling",
-                            "Various JavaScript module development",
-                            "TYPO3 CMS configuration and templating",
-                            "User training"
+                            "ETL projects with SSIS and SQL Server",
+                            "Master Data Management with Microsoft MDM",
+                            "Microsoft Dynamics CRM integration",
+                            "Front-end and back-end web development"
                         ],
                         "status":"Permanent position",
                         "url":""
                     },
-                    "stageEmagineurs":{
-                        "title":"Web content management internship",
+                    "limu":{
+                        "title":"Kyushu University, Japan",
+                        "subtitle":"",
+                        "missions":"Research with Deep Learning",
+                        "activity":[
+                            "Research project based on deep learning",
+                            "Deep learning utility server design",
+                            "Web interface for data visualization"
+                        ],
+                        "status":"Internship",
+                        "url":""
+                    },
+                    "prototypo":{
+                        "title":"Prototypo",
+                        "subtitle":"",
+                        "missions":"React and NodeJS development",
+                        "activity":[
+                            "Font rendering optimisation",
+                            "Work on user interface development",
+                            "Google Chrome Extension"
+                        ],
+                        "status":"Internship",
+                        "url":""
+                    },
+                    "emagineurs":{
+                        "title":"Front-end web development",
                         "subtitle":"E-magineurs",
                         "url":"www.e-magineurs.com"
                     },
@@ -123,6 +171,7 @@
                 "title":"Degrees",
                 "content":{
                     "formations":[
+                        {"year":"2019","subject":"Diplôme d'Ingénieur (Informatique et Réseaux de Communication) - CPE Lyon, France"},
                         {"year":"2016","subject":"DUT Informatique en Année Spéciale - Université Lyon 1 - Lyon, France"},
                         {"year":"2012","subject":"Licence LLCE spé Japonais - Université Jean Moulin Lyon 3 - Lyon, France"},
                         {"year":"2009","subject":"Baccalauréat Section Scientifique - Lyon, France"}
@@ -133,7 +182,7 @@
                 "title":"Languages",
                 "content":{
                     "languages":[
-                        {"title":"English","level":"Spoken, written, read"},
+                        {"title":"English","level":"Spoken, written, read (C1)"},
                         {"title":"Japanese","level":"Spoken, written, read"},
                         {"title":"German","level":"Basic A-grade level"}
                     ]
